@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clr
+{
+    clear: both;
+}
+
+
+#home
+{
+    background-image: url(../images/shutterstock_277750193.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: hidden;
+
+}
+#home .contant
+{
+   
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+}
+#home .contant h1
+{
+font-size: 35px;
+font-weight: 900;
+}
+#home .contant button
+{
+    padding: 10px 15px;
+    
+    
+    margin-top: 15px;
+}
+.btn 
+{
+background-color: tomato;
+}
+#about
+{
+    padding: 30px 20px;
+    
+
+}
+#about .about-one , #about .about-two
+{
+    width: 50%;
+    float: left;
+}
+#about .about-two
+{
+    text-align: center;
+    padding-top: 20rem;
+}
+#about .about-two p
+{
+    margin: 22px 20px;
+}
+#about .about-two button
+{
+    padding: 15px 20px;
+}
+#about .about-one img
+{
+    width: 100%;
+}
+/* media query */
+@media screen and (max-width:600px)
+{
+    #about .about-one
+    {
+        width: 100%;
+    }
+    #about .about-two
+    {
+        width: 100%;
+    }
+
+
+}
+
+
+#contact
+{
+    background-image: url(../images/bgs.jpg);
+    background-size:  100% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+#meals
+{
+    
+    padding: 30px 20px;
+    height: 60vh;
+    text-align: center;
+}
+#meals .meals-one
+{
+    
+    width: 25%;
+    float: left;
+    padding: 10px 20px;
+
+}
+#meals .meals-one img
+{
+    
+    border-radius: 50%;
+}
+#meals .meals-one .hr
+{
+    width: 40%;
+    height: 1px;
+    background-color: slategrey;
+    margin: auto;
+    
+}
+#meals .meals-one h2
+{
+margin: 15px 0px;
+}
+#meals .meals-one p
+{
+    margin: 15px 0px;
+}
+/* media query */
+@media screen and (max-width:600px)
+{
+    #meals .meals-one
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    #meals .meals-one
+    {
+        width: 50%;
+    }
+}
+    
